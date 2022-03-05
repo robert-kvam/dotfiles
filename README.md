@@ -2,6 +2,13 @@
 
 ```
 .
+├── .bashrc
+├── .bash_aliases
+├── .config
+│   └── fish
+├── .local
+│   ├── bin
+│   └── share
 ├── AppImagesLib
 ├── Desktop
 ├── Documents
