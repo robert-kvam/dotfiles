@@ -9,6 +9,7 @@
 ├── .local
 │   ├── bin
 │   └── share
+├── .zshrc
 ├── AppImagesLib
 ├── Desktop
 ├── Documents
