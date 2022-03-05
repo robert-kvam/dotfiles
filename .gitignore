@@ -1,0 +1,5 @@
+# SSH keys, SSH config and other sensitive data will not be uploaded to git
+**/.ssh/*
+
+# Ignore .vscode config and attachments
+**/.vscode/**
