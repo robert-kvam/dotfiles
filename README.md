@@ -5,6 +5,8 @@
 ├── AppImagesLib
 ├── Desktop
 ├── Documents
+│   ├── Github
+│   └── Gitlab
 ├── Downloads
 ├── Music
 ├── Pictures
