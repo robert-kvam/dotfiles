@@ -1,0 +1,26 @@
+name: Hello Push with lint
+
+on:
+  push:
+    branches-ignore: [ main ]
+  pull_request:
+    branches: [ main ]
+
+
+jobs:
+  build:
+    name: Say hello
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check the code base
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      
+      - name: Lint the poop
+        uses: github/superlinter@v3
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: {{ secrets.GITHUB_TOKEN }}
