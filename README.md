@@ -21,5 +21,5 @@
 ├── Templates
 └── Videos
 
-9 directories
+16 directories
 ```
