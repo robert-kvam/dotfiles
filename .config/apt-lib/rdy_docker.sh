@@ -6,11 +6,12 @@ set-timezone
 for item in "${package[@]}"; do
     if [ $UID == 0 ]; then
         $PKG $INSTALL $item
+        echo "::: Installing $item"
     else
         $SUDO $PKG $INSTALL $item
+        echo "::: Installing $item"
     fi
 done
-unminimize
 clean-variables
 }
 package=(
@@ -39,15 +40,17 @@ set-timezone() {
 }
 set-alias() {
     SUDO="sudo"
-    UPT="update"
+    UPT="update -q"
     PKG="apt-get"
     INSTALL="install -qy"
 }
 update() {
 if [ $UID == 0 ]; then
     $PKG $UPT
+    echo "::: Updating apt-repo"
 else
     $SUDO $PKG $UPT
+    echo "::: Updating apt-repo"
 fi
 }
 clean-variables() {
