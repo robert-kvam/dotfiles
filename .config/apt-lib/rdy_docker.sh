@@ -34,7 +34,7 @@ package=(
 set-alias() {
     SUDO="sudo"
     UPT="update"
-    PKG="apt"
+    PKG="apt-get"
     INSTALL="install -y"
 }
 update() {
