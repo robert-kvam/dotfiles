@@ -16,6 +16,7 @@ package=(
     "neovim"
     "neofetch"
     "curl"
+    "wget"
     "git"
     "htop"
     "tree"
