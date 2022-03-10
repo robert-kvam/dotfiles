@@ -2,6 +2,7 @@
 main() {
 set-alias
 update
+set-timezone
 for item in "${package[@]}"; do
     if [ $UID == 0 ]; then
         $PKG $INSTALL $item
@@ -32,12 +33,15 @@ package=(
     "mmv"
     "rsync"
 )
+set-timezone() {
+    ln -fs /usr/share/zoneinfo/Europe/Oslo /etc/localtime
+    DEBIAN_FRONTEND=noninteractive
+}
 set-alias() {
     SUDO="sudo"
     UPT="update"
     PKG="apt-get"
     INSTALL="install -y"
-    TZ="Europe/Oslo"
 }
 update() {
 if [ $UID == 0 ]; then
