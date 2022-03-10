@@ -6,10 +6,10 @@ set-timezone
 for item in "${package[@]}"; do
     if [ $UID == 0 ]; then
         echo "::: Installing $item"
-        $PKG $INSTALL $item 2>&1
+        $PKG $INSTALL $item &>/dev/null
     else
         echo "::: Installing $item"
-        $SUDO $PKG $INSTALL $item 2>&1
+        $SUDO $PKG $INSTALL $item &>/dev/null
     fi
 done
 clean-variables
@@ -47,10 +47,10 @@ set-alias() {
 update() {
 if [ $UID == 0 ]; then
     echo "::: Updating apt-repo"
-    $PKG $UPT
+    $PKG $UPT &>/dev/null
 else
     echo "::: Updating apt-repo"
-    $SUDO $PKG $UPT
+    $SUDO $PKG $UPT &>/dev/null
 fi
 }
 clean-variables() {
