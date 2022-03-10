@@ -40,9 +40,9 @@ set-timezone() {
 }
 set-alias() {
     SUDO="sudo"
-    UPT="update -q"
+    UPT="update -qq"
     PKG="apt-get"
-    INSTALL="install -qy"
+    INSTALL="install -qqy"
 }
 update() {
 if [ $UID == 0 ]; then
