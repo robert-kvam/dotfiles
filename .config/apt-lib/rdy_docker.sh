@@ -11,6 +11,7 @@ set-alias
 clean-variables
 }
 package = (
+    "neovim"
     "curl"
     "git"
     "htop"
