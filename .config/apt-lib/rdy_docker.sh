@@ -9,7 +9,7 @@ for item in "${package[@]}"; do
         $SUDO $PKG $INSTALL $item
     fi
 done
-update
+unminimize
 clean-variables
 }
 package=(
