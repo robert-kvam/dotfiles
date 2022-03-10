@@ -22,6 +22,7 @@ package=(
     "tree"
     "gcc"
     "make"
+    "bind9-host"
     "man"
     "iproute2"
     "iputils-ping"
