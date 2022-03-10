@@ -46,11 +46,11 @@ set-alias() {
 }
 update() {
 if [ $UID == 0 ]; then
+    echo "::: Updating apt-repo"
     $PKG $UPT
-    echo "::: Updating apt-repo"
 else
-    $SUDO $PKG $UPT
     echo "::: Updating apt-repo"
+    $SUDO $PKG $UPT
 fi
 }
 clean-variables() {
