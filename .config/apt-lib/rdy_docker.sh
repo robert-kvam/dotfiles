@@ -12,6 +12,7 @@ clean-variables
 }
 package=(
     "neovim"
+    "neofetch"
     "curl"
     "git"
     "htop"
