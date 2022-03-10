@@ -35,7 +35,7 @@ package=(
 )
 set-timezone() {
     ln -fs /usr/share/zoneinfo/Europe/Oslo /etc/localtime
-    DEBIAN_FRONTEND=noninteractive
+    export DEBIAN_FRONTEND=noninteractive
 }
 set-alias() {
     SUDO="sudo"
