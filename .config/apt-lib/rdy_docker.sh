@@ -1,24 +1,10 @@
 #!/bin/bash
-main() {
-set-alias
-update
-set-timezone
-for item in "${package[@]}"; do
-    if [ $UID == 0 ]; then
-        echo "::: Installing $item"
-        $PKG $INSTALL $item &>/dev/null
-    else
-        echo "::: Installing $item"
-        $SUDO $PKG $INSTALL $item &>/dev/null
-    fi
-done
-clean-variables
-}
 package=(
     "neovim"
     "neofetch"
     "curl"
     "wget"
+    "openssh-server"
     "git"
     "htop"
     "tree"
@@ -34,6 +20,21 @@ package=(
     "mmv"
     "rsync"
 )
+main() {
+set-alias
+update
+set-timezone
+for item in "${package[@]}"; do
+    if [ $UID == 0 ]; then
+        echo "::: Installing $item"
+        $PKG $INSTALL $item &>/dev/null
+    else
+        echo "::: Installing $item"
+        $SUDO $PKG $INSTALL $item &>/dev/null
+    fi
+done
+clean-variables
+}
 set-timezone() {
     ln -fs /usr/share/zoneinfo/Europe/Oslo /etc/localtime
     export DEBIAN_FRONTEND=noninteractive
