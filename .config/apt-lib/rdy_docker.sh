@@ -41,7 +41,7 @@ set-alias() {
     SUDO="sudo"
     UPT="update"
     PKG="apt-get"
-    INSTALL="install -y"
+    INSTALL="install -qy"
 }
 update() {
 if [ $UID == 0 ]; then
