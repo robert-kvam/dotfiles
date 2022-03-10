@@ -33,6 +33,7 @@ package=(
 )
 set-alias() {
     SUDO="sudo"
+    UPT="update"
     PKG="apt"
     INSTALL="install -y"
 }
