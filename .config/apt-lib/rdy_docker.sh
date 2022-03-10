@@ -5,11 +5,11 @@ update
 set-timezone
 for item in "${package[@]}"; do
     if [ $UID == 0 ]; then
-        $PKG $INSTALL $item
         echo "::: Installing $item"
+        $PKG $INSTALL $item 2>&1
     else
-        $SUDO $PKG $INSTALL $item
         echo "::: Installing $item"
+        $SUDO $PKG $INSTALL $item 2>&1
     fi
 done
 clean-variables
