@@ -3,9 +3,9 @@ main() {
 set-alias
     for item in "${package[@]}"; do
         if [ $UID == 0 ]; then
-            $PKG $  $item
+            $PKG $INSTALL $item
         else
-            $SUDO $PKG $  $item
+            $SUDO $PKG $INSTALL $item
         fi
     done
 clean-variables
@@ -27,13 +27,13 @@ package = (
     "rsync"
 )
 set-alias() {
-SUDO="sudo"
-PKG="apt"
- ="install -y"
+    SUDO="sudo"
+    PKG="apt"
+    INSTALL="install -y"
 }
 clean-variables() {
     unset package
-    unset  
+    unset INSTALL
     unset PKG
     unset SUDO
 }
