@@ -1,13 +1,15 @@
 #!/bin/bash
 main() {
 set-alias
-    for item in "${package[@]}"; do
-        if [ $UID == 0 ]; then
-            $PKG $INSTALL $item
-        else
-            $SUDO $PKG $INSTALL $item
-        fi
-    done
+update
+for item in "${package[@]}"; do
+    if [ $UID == 0 ]; then
+        $PKG $INSTALL $item
+    else
+        $SUDO $PKG $INSTALL $item
+    fi
+done
+update
 clean-variables
 }
 package=(
@@ -32,6 +34,13 @@ set-alias() {
     SUDO="sudo"
     PKG="apt"
     INSTALL="install -y"
+}
+update() {
+if [ $UID == 0 ]; then
+    $PKG $UPT
+else
+    $SUDO $PKG $UPT
+fi
 }
 clean-variables() {
     unset package
