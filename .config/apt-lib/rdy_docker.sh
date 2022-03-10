@@ -10,7 +10,7 @@ set-alias
     done
 clean-variables
 }
-package = (
+package=(
     "neovim"
     "curl"
     "git"
