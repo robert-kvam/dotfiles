@@ -37,6 +37,7 @@ set-alias() {
     UPT="update"
     PKG="apt-get"
     INSTALL="install -y"
+    TZ="Europe/Oslo"
 }
 update() {
 if [ $UID == 0 ]; then
