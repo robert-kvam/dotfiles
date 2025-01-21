@@ -1,0 +1,13 @@
+k9s:
+  cluster: cp-01.vrl.sh
+  namespace:
+    active: all
+    lockFavorites: false
+    favorites:
+    - all
+    - default
+  view:
+    active: endpoints
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

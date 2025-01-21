@@ -1,0 +1,173 @@
+[90m1:11PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m1:11PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/api\": dial tcp 127.0.0.1:8080: connect: connection refused"[0m[0m
+[90m1:11PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m1:11PM[0m [31mERR[0m [1mconfig refine failed[0m [36merror=[0m[31m[1m"unable to activate context \"\": getcontext - invalid context specified: \"\""[0m[0m
+[90m1:11PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/version?timeout=15s\": dial tcp 127.0.0.1:8080: connect: connection refused"[0m[0m
+[90m1:11PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:11PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m1:11PM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/api\": dial tcp 127.0.0.1:8080: connect: connection refused\nunable to activate context \"\": getcontext - invalid context specified: \"\"\ncannot connect to context: \nk8s connection failed for context: "[0m[0m
+[90m1:11PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m1:11PM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m1:11PM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m1:11PM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m1:11PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m1:11PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m1:11PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m1:11PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m1:11PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/version?timeout=15s\": dial tcp 127.0.0.1:8080: connect: connection refused"[0m[0m
+[90m1:11PM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m1:11PM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m1:11PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m1:11PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m1:11PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:11PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m1:11PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:11PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m1:11PM[0m [31mERR[0m [1mnuking k9s shell pod[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m1:11PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m2:21PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m2:21PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/api\": dial tcp 127.0.0.1:8080: connect: connection refused"[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mconfig refine failed[0m [36merror=[0m[31m[1m"unable to activate context \"\": getcontext - invalid context specified: \"\""[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/version?timeout=15s\": dial tcp 127.0.0.1:8080: connect: connection refused"[0m[0m
+[90m2:21PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m2:21PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m2:21PM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/api\": dial tcp 127.0.0.1:8080: connect: connection refused\nunable to activate context \"\": getcontext - invalid context specified: \"\"\ncannot connect to context: \nk8s connection failed for context: "[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m2:21PM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m2:21PM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/version?timeout=15s\": dial tcp 127.0.0.1:8080: connect: connection refused"[0m[0m
+[90m2:21PM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m2:21PM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m2:21PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m2:21PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m2:21PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m2:21PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m2:21PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m2:21PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m2:21PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m2:21PM[0m [31mERR[0m [1mnuking k9s shell pod[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m2:21PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m12:55PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m12:55PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/api\": dial tcp 127.0.0.1:8080: connect: connection refused"[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mconfig refine failed[0m [36merror=[0m[31m[1m"unable to activate context \"\": getcontext - invalid context specified: \"\""[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/version?timeout=15s\": dial tcp 127.0.0.1:8080: connect: connection refused"[0m[0m
+[90m12:55PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m12:55PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m12:55PM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/api\": dial tcp 127.0.0.1:8080: connect: connection refused\nunable to activate context \"\": getcontext - invalid context specified: \"\"\ncannot connect to context: \nk8s connection failed for context: "[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m12:55PM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m12:55PM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mUnable to assert active namespace. Using default[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"http://localhost:8080/version?timeout=15s\": dial tcp 127.0.0.1:8080: connect: connection refused"[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m12:55PM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m12:55PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m12:55PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m12:55PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m12:55PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m12:55PM[0m [33mWRN[0m [1mPlugins load failed: getcontext - invalid context specified: ""[0m
+[90m12:55PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m12:55PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m12:55PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m12:55PM[0m [31mERR[0m [1mnuking k9s shell pod[0m [36merror=[0m[31m[1m"getcontext - invalid context specified: \"\""[0m[0m
+[90m12:55PM[0m [33mWRN[0m [1mSave failed. no active config detected[0m
+[90m12:55PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m12:55PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:01PM[0m [33mWRN[0m [1m  Dial Failed![0m [36merror=[0m[31m[1m"Post \"https://192.168.0.15:6443/apis/authorization.k8s.io/v1/selfsubjectaccessreviews\": context deadline exceeded"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://192.168.0.15:6443/version?timeout=15s\": context deadline exceeded"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m1:01PM[0m [33mWRN[0m [1mreconciler exited[0m [36merror=[0m[31m[1m"context canceled"[0m[0m
+[90m1:01PM[0m [33mWRN[0m [1m  Dial Failed![0m [36merror=[0m[31m[1m"Post \"https://192.168.0.15:6443/apis/authorization.k8s.io/v1/selfsubjectaccessreviews\": context deadline exceeded"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mComponent init failed for "Pod"[0m [36merror=[0m[31m[1m"Post \"https://192.168.0.15:6443/apis/authorization.k8s.io/v1/selfsubjectaccessreviews\": context deadline exceeded"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mPost "https://192.168.0.15:6443/apis/authorization.k8s.io/v1/selfsubjectaccessreviews": context deadline exceeded[0m
+[90m1:01PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mNo REST mapper for resource v1/nodes[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mreconcile failed "v1/nodes"[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mrefresh failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m1:01PM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mWatcher failed for v1/nodes -- ACCESS -- No API server connection[0m [36merror=[0m[31m[1m"ACCESS -- No API server connection"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mcurrent user can't edit resource v1/nodes[0m
+[90m1:01PM[0m [31mERR[0m [1mWatcher failed for v1/nodes -- ACCESS -- No API server connection[0m [36merror=[0m[31m[1m"ACCESS -- No API server connection"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:01PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:01PM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:01PM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:01PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m1:01PM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"No metrics api group metrics.k8s.io found on cluster"[0m[0m
+[90m1:01PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:02PM[0m [33mWRN[0m [1mDeleted (0) portforward for "cp-01.vrl.sh"[0m
+[90m1:02PM[0m [31mERR[0m [1mEdit command failed: kubectl command is not in your path: exec: "kubectl": executable file not found in $PATH[0m [36merror=[0m[31m[1m"kubectl command is not in your path: exec: \"kubectl\": executable file not found in $PATH"[0m[0m
+[90m1:02PM[0m [31mERR[0m [1mEdit command failed: kubectl command is not in your path: exec: "kubectl": executable file not found in $PATH[0m [36merror=[0m[31m[1m"kubectl command is not in your path: exec: \"kubectl\": executable file not found in $PATH"[0m[0m
+[90m1:02PM[0m [31mERR[0m [1mEdit command failed: kubectl command is not in your path: exec: "kubectl": executable file not found in $PATH[0m [36merror=[0m[31m[1m"kubectl command is not in your path: exec: \"kubectl\": executable file not found in $PATH"[0m[0m
+[90m1:02PM[0m [31mERR[0m [1mEdit command failed: kubectl command is not in your path: exec: "kubectl": executable file not found in $PATH[0m [36merror=[0m[31m[1m"kubectl command is not in your path: exec: \"kubectl\": executable file not found in $PATH"[0m[0m
+[90m1:02PM[0m [31mERR[0m [1mEdit command failed: kubectl command is not in your path: exec: "kubectl": executable file not found in $PATH[0m [36merror=[0m[31m[1m"kubectl command is not in your path: exec: \"kubectl\": executable file not found in $PATH"[0m[0m
+[90m1:02PM[0m [31mERR[0m [1mEdit command failed: kubectl command is not in your path: exec: "kubectl": executable file not found in $PATH[0m [36merror=[0m[31m[1m"kubectl command is not in your path: exec: \"kubectl\": executable file not found in $PATH"[0m[0m
+[90m1:02PM[0m [31mERR[0m [1mEdit command failed: kubectl command is not in your path: exec: "kubectl": executable file not found in $PATH[0m [36merror=[0m[31m[1m"kubectl command is not in your path: exec: \"kubectl\": executable file not found in $PATH"[0m[0m
+[90m1:07PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m1:07PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:08PM[0m [31mERR[0m [1mCommand failed[0m [36merror=[0m[31m[1m"signal: interrupt"[0m[0m
+[90m1:08PM[0m [31mERR[0m [1mExec failed "/usr/local/bin/kubectl edit --context vrl.sh nodes.v1./wk-01": signal: interrupt
+[0m [36merror=[0m[31m[1m"signal: interrupt\n"[0m[0m
+[90m1:08PM[0m [31mERR[0m [1mEdit command failed: signal: interrupt
+[0m [36merror=[0m[31m[1m"signal: interrupt\n"[0m[0m
+[90m1:08PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m1:08PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:25PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m1:25PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m1:25PM[0m [33mWRN[0m [1mk9s latest rev fetch failed No version found[0m
+[90m1:25PM[0m [33mWRN[0m [1mk9s latest rev fetch failed No version found[0m
+[90m1:25PM[0m [33mWRN[0m [1mk9s latest rev fetch failed No version found[0m
+[90m1:25PM[0m [33mWRN[0m [1mk9s latest rev fetch failed No version found[0m
+[90m1:28PM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://192.168.0.15:6443/version?timeout=15s\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"[0m[0m
+[90m1:28PM[0m [31mERR[0m [1mClusterUpdater failed[0m [36merror=[0m[31m[1m"conn check failed (1/5)"[0m[0m
+[90m1:28PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:28PM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:28PM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m1:28PM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m11:37PM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m11:37PM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m11:38PM[0m [31mERR[0m [1mreconcile failed "v1/namespaces"[0m [36merror=[0m[31m[1m"namespaces \"all\" not found"[0m[0m
+[90m11:38PM[0m [31mERR[0m [1mrefresh failed[0m [36merror=[0m[31m[1m"namespaces \"all\" not found"[0m[0m
+[90m8:24AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:25AM[0m [31mERR[0m [1mFail to locate metrics-server[0m [36merror=[0m[31m[1m"Get \"https://192.168.0.15:6443/api\": dial tcp 192.168.0.15:6443: i/o timeout"[0m[0m
+[90m8:25AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://192.168.0.15:6443/version?timeout=15s\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"[0m[0m
+[90m8:25AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:25AM[0m [31mERR[0m [1mFail to load global/context configuration[0m [36merror=[0m[31m[1m"Get \"https://192.168.0.15:6443/api\": dial tcp 192.168.0.15:6443: i/o timeout\ncannot connect to context: vrl.sh\nk8s connection failed for context: vrl.sh"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list contexts[0m [36merror=[0m[31m[1m"no connection"[0m[0m
+[90m8:25AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mContext switch failed[0m [36merror=[0m[31m[1m"no connection to cached dial"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mno connection to cached dial[0m
+[90m8:25AM[0m [31mERR[0m [1mcan't connect to cluster[0m [36merror=[0m[31m[1m"Get \"https://192.168.0.15:6443/version?timeout=15s\": context deadline exceeded"[0m[0m
+[90m8:25AM[0m [33mWRN[0m [1mUnable to dial discovery API[0m [36merror=[0m[31m[1m"no connection to dial"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mLoad cluster resources - No API server connection[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [31mERR[0m [1mfailed to list namespaces[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:25AM[0m [33mWRN[0m [1mnamespace validation failed for: "default"[0m [36merror=[0m[31m[1m"user not authorized to list all namespaces"[0m[0m
+[90m8:56AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:56AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
+[90m8:57AM[0m [32mINF[0m [1m🐶 K9s starting up...[0m
+[90m8:57AM[0m [32mINF[0m [1m✅ Kubernetes connectivity[0m
